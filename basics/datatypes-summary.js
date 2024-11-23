@@ -36,3 +36,35 @@ console.log(typeof(bigNumber));
 console.log(myFunction);
 console.log(typeof(myFunction));
 
+
+//**************************************************************memory ***************************************************** */
+// Stack(primitive) , Heap(refrence)(non primitive)
+
+let ytName= 'xavier edits'
+
+let anotherName = ytName
+anotherName ="xaniplays"
+console.log(anotherName);
+console.log(ytName); // copy is changed not the real value and js reads the code in as sequence 
+
+let user ={
+    email:"can@gamil",
+    paypal:"user@pal",
+}
+// values stored in heap format so orignal refrence is passed , therefore if any changes occures then the other value in refrence also changes
+let usertwo = user
+
+usertwo.email = "hist@google.coom"
+
+console.log(user.email);
+console.log(usertwo.email);
+
+
+
+
+
+
+
+
+
+

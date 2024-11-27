@@ -16,6 +16,14 @@ console.log(otherNumber.toPrecision(3));// rounds off to given value
 const antoherNumber =123.88945 // 124
 console.log(antoherNumber.toPrecision(3));
 
+const hundreds = 10000000000 //10,000,000,000(output)
+console.log(hundreds.toLocaleString());  //add comas like used in denotion of currency 
+
+// for converting values into indian number system comas or any other currency
+
+console.log(hundreds.toLocaleString('en-IN'));
+
+
 
 
 

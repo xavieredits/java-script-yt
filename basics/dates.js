@@ -51,3 +51,10 @@ console.log(newDate.getDay());//6
 console.log(newDate.getFullYear());//2024
 console.log(newDate.getTime());//1732985312906 in milli sec
 
+// FOR INTERNATIONATNALISATION 
+
+newDate.toLocaleString('default',{
+    weekday: "long",
+})
+console.log(newDate);
+// 2024-11-30T17:27:23.960Z

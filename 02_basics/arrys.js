@@ -17,5 +17,17 @@ console.log(myHers[2]);
 
 // ARRY MEHTODS
 
-myArr.push(6);
+myArr.push(6);// adding the any value of other element in the arry
+myArr.push(7);
+myArr.pop()// is used for removing last value from the arry
+myArr.unshift(9);// adds a the given value to the start  
+// note using unshift is time consuming and also puts load in computer 
+// hence should not be used for larger opperetions
+myArr.shift()// no paramerters are given cause it removes the first value form the arry
+console.log(myArr);
+ 
+// NEW THINg
+console.log(myArr.includes(9));// false 
+// this command is use as a query in this one 
+// includes 9 means if the arry has any number which is 9
 console.log(myArr);

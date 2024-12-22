@@ -43,5 +43,20 @@ console.log(newArr);// is converted to a string type of value
 // ]
 // 0,1,2,3,4,5,6,6
 
-// ===================== SLICE & SPLICE ========================
-lo
+// ===================== SLICE & SPLICE ======================
+console.log("A",myArr);
+const test = myArr.slice(1,3)// includes only 1 & 2 not 3
+console.log(`results:${test}`); // older concept
+console.log(test);
+console.log("B" , myArr);
+
+const test2 = myArr.splice(1,3) // it has inclued the 3 one also 
+console.log("original tp compare", myArr);//original tp compare [ 0, 4, 5, 6, 6 ]
+console.log("C",test2)://C [ 1, 2, 3 ]
+
+// splice has changed the orignal values and the structure of arrys
+
+/////////// orignal info
+// slice() creates a new array with a portion of elements copied from the original array, while splice() mutates 
+// the original array itself by removing, replacing or adding elements to it.
+

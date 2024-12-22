@@ -31,3 +31,17 @@ console.log(myArr.includes(9));// false
 // this command is use as a query in this one 
 // includes 9 means if the arry has any number which is 9
 console.log(myArr);
+
+const newArr = myArr.join()
+
+console.log(myArr);//  here only arry is prented 
+console.log(newArr);// is converted to a string type of value 
+//=============  ANS ==============
+// [
+//   0, 1, 2, 3,
+//   4, 5, 6, 6
+// ]
+// 0,1,2,3,4,5,6,6
+
+// ===================== SLICE & SPLICE ========================
+lo

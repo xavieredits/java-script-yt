@@ -46,7 +46,7 @@ console.log(newArr);// is converted to a string type of value
 // ===================== SLICE & SPLICE ======================
 console.log("A",myArr);
 const test = myArr.slice(1,3)// includes only 1 & 2 not 3
-console.log(`results:${test}`); // older concept
+// console.log(`results:${test}`); // older concept
 console.log(test);
 console.log("B" , myArr);
 

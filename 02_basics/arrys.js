@@ -52,7 +52,7 @@ console.log("B" , myArr);
 
 const test2 = myArr.splice(1,3) // it has inclued the 3 one also 
 console.log("original tp compare", myArr);//original tp compare [ 0, 4, 5, 6, 6 ]
-console.log("C",test2)://C [ 1, 2, 3 ]
+console.log("C",test2);//C [ 1, 2, 3 ]
 
 // splice has changed the orignal values and the structure of arrys
 

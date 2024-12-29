@@ -26,3 +26,28 @@ const allAnimes = [...animeNames,...newAnimes]
 console.log(allAnimes);
 
 // The spread operator is often used in combination with destructuring.
+
+const anotherArry = [1 , 2 , 3 , [4 , 5 , 6] , 7 , [6 , 7 , [ 4 , 5]]]
+// falt is used to flatten a nested array
+const usableArry = anotherArry.flat(Infinity)// <= in this bracket depth is defined to be solved from the complex arry 
+console.log(usableArry);
+
+
+///////////////////////// data scraping//////////
+
+// asking if the given value is an arry or not 
+console.log(Array.isArray("xani"));// false not an arry
+
+console.log(Array.from("xani"));//[ 'x', 'a', 'n', 'i' ]
+// it convets the entire sting into an arry
+
+console.log(Array.from({name:"xani"}));//[]
+// returns empty arry ^ important
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1,score2,score3));
+// [ 100, 200, 300 ] output 
+// it has converted the variables into arry

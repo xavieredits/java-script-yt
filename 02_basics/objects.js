@@ -24,14 +24,31 @@ console.log(jsUser["name"]); // remember in objects the key value like "name" is
 console.log(jsUser["fullName"]);
 
 // declayring a symbol and correct synatax to use it 
-const mySym = Symbol("pass")
+const mySym = Symbol("pass1")
 const secUser= {
-    name:"sam",            
-    [mySym]:"key1",            
+    name:"sam",   
+    "fullName":"Xani_Oster",         
+    [mySym]: "mypass1",
     age:24,                                               
     location:"japan",
     email:"sam@gmail",
     isLoggedin:true,
     lastLoginDays:["wednesday","tuesday"]
 }
-console.log(typeofecUser[mySym]));
+console.log(secUser[mySym]);
+console.log(typeof secUser[mySym]);
+
+//overwiriting values
+
+secUser.email="sam@microsft.com"
+console.log(secUser);
+
+// want that no overwrting can be perfromed on the object 
+// use
+  
+Object.freeze(secUser)
+secUser.email="sameeee@gmail.com"// didn't work
+console.log(secUser);
+
+
+////// functions ///////////
